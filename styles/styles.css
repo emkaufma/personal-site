@@ -1,0 +1,237 @@
+html, body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100%;
+    margin: 0;
+    background-image: url("../images/star5.jpg");
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center;   
+    background-color: black;    
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+
+#anim{
+    background-color: #000000;
+    opacity: 0.5;
+    margin: 10px;
+    width: auto;
+
+    width: 100%; /*can be in percentage also.*/
+    height: auto;
+    padding: 10px;
+    position: relative;
+    font-weight: 200;
+    align-content: center;
+    align-text: center;
+}
+
+
+#anim > #static-text{
+    display:float;
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    letter-spacing: 5px;
+    background: -webkit-linear-gradient(white, #38495a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 8px;
+    text-overflow: ellipsis;
+    text-align:center;
+    align-self:center;
+}
+
+nav{
+    background-color: #000000;
+    opacity: 0.88;
+    margin-left: 10px;
+    display: inline-block;
+    cursor: pointer;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 10px;
+}
+
+.nav-link{
+    color: #FFF !important;
+    text-align: center;
+    font-size: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: .50;  
+    margin-top: 15px; 
+    display: inline;
+}
+
+nav > a:hover{
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    opacity: 1;
+}
+
+#main{
+    background-color: #000000;
+    opacity: .88;
+    margin-left: 10px;
+    display: inline-block;
+    min-height: 85%; 
+    min-width: 100%;
+}
+
+#main > p{
+    color: #FFF;
+    font-size: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#animated-text {
+    display:float;
+    -webkit-animation:colorchange 20s infinite alternate;
+    animation: colorchange 20s infinite alternate;
+    font-size: 50px;
+    letter-spacing: 10px;
+    font-size: 72px;
+}
+  
+@-webkit-keyframes colorchange {
+    0% {
+      color: blue;
+      opacity: 1;
+    }
+    
+    10% {
+      opacity: .75;
+      color: #8e44ad;
+    }
+    
+    20% {
+      
+      color: #1abc9c;
+      opacity: 1;
+    }
+    
+    30% {
+        opacity: .75;
+
+      color: #d35400;
+    }
+    
+    40% {
+      color: blue;
+      opacity: 1;
+    }
+    
+    50% {
+        opacity: .75;
+
+      color: #34495e;
+    }
+    
+    60% {
+      
+      color: blue;
+      opacity: 1;
+    }
+    
+    70% {
+        opacity: .75;
+
+      color: #2980b9;
+    }
+    80% {
+   
+      color: #f1c40f;
+      opacity: 1;
+
+    }
+    
+    90% {
+        opacity: .75;
+
+      color: #2980b9;
+    }
+    
+    100% {
+      
+      color: pink;
+      opacity: 1;
+
+    }
+  }
+
+  #about, #projects, #contact{
+    background-color: #000000;
+    opacity: 0.88;
+    margin-left: 10px;
+    display: none;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+    color: white;
+    font-size: 24px;
+    padding: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+  }
+
+  #about > p {
+      opacity: .75;
+  }
+
+  #projects > p {
+    opacity: .75;
+  }
+
+  #contact > p {
+    opacity: .75;
+  }
+
+.icon-link > .fa-github, .icon-link > .fa-linkedin{
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    opacity: .6;
+    color: white !important ;
+    padding: 10px;
+}
+
+.icon-link:hover > .fa-github, .icon-link:hover > .fa-linkedin{ 
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    opacity: 1;
+}
+
