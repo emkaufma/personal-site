@@ -12,11 +12,11 @@ html, body {
 }
 
 @media (min-width: 544px) {  
-    html {font-size:12px;} /*1rem = 16px*/
+    html {font-size:8px;} /*1rem = 16px*/
 }
 
 @media (min-width: 768px) {  
-    html {font-size:14px;} /*1rem = 16px*/
+    html {font-size:12px;} /*1rem = 16px*/
 }
 
 @media (min-width: 992px) { 
@@ -315,5 +315,9 @@ nav > a:hover{
     -webkit-transition: 0.5s ease;
     transition: 0.5s ease;
     opacity: 1;
+}
+
+.project-name > a{
+    font-size: 1.5em;
 }
 
